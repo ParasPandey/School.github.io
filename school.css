@@ -1,0 +1,159 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-size: 20px;
+  font-family: "David Libre", serif;
+}
+a {
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+  text-decoration: none;
+}
+.change span {
+  font-family: "Pacifico", cursive;
+}
+.change h1,
+p {
+  font-family: "Comfortaa", cursive;
+}
+.ab p{
+  padding-left: 1rem;
+  font-size: 18px;
+}
+a:hover {
+  text-decoration: none;
+}
+.navbar li {
+  margin: 0.5rem;
+  border-radius: 10px;
+}
+.navbar ul {
+  margin-left: 1rem;
+}
+.img img {
+  height: 100%;
+  width: 100%;
+  background-size: cover;
+}
+.flex {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.marketing {
+  margin-top: 1rem;
+}
+.marketing .row {
+  margin-top: 1rem;
+}
+.marketing img {
+  border-radius: 50%;
+}
+.site-section {
+  padding: 2.5em 0;
+}
+
+.site-section.site-section-sm {
+  padding: 4em 0;
+}
+.testimonial-3-wrap {
+  background: #db7b74;
+  padding: 30px;
+  -webkit-box-shadow: 0 5px 30px -10px rgba(255, 255, 255, 0.5);
+  box-shadow: 0 5px 30px -10px rgba(255, 255, 255, 0.5);
+}
+
+.testimonial-3 {
+  color: #fff;
+}
+.testimonial-3 .vcard-wrap {
+  -webkit-box-flex: 0;
+  -ms-flex: 0 0 80px;
+  flex: 0 0 80px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.testimonial-3 .vcard {
+  width: 80px;
+}
+.testimonial-3 .position {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 16px;
+}
+.testimonial-3 h3 {
+  color: #fff;
+}
+.testimonial-3 .d-flex {
+  display: flex;
+  flex-direction: column;
+}
+.package {
+  color: #777;
+  padding: 40px;
+  border-radius: 7px;
+}
+.package h3 {
+  font-size: 18px;
+  margin-bottom: 30px;
+}
+.package .img-wrap {
+  display: block;
+  margin: 0 auto 30px auto;
+  width: 80px;
+}
+.package .img-wrap img {
+  width: 80px;
+}
+.footer {
+  margin-top: 2rem;
+  background-color: rgba(164, 201, 235, 0.589);
+}
+@media (max-width: 800px) {
+  .change {
+    margin-top: 2rem;
+  }
+  .change h1 {
+    font-size: 30px;
+    margin-top: 3px;
+  }
+}
+@media (max-width: 600px) {
+  .pb-3,
+  .py-3 {
+    padding-bottom: 0.5rem !important;
+  }
+  .pt-3,
+  .py-3 {
+    padding-top: 0.5rem !important;
+  }
+  .mt-5,
+  .my-5 {
+    margin-top: 1rem !important;
+  }
+  .col-6{
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+  .logo{
+    width: 25%;
+  }
+  .size{
+    font-size: 16px;
+  }
+}
+@media (max-width: 500px) {
+  .change .clear{
+    display: none;
+  }
+  .change h1 {
+    font-size: 20px;
+  }
+  .change span{
+    font-size: 12px;
+  }
+  
+}
